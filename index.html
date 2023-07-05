@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beshy Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #000;
+      color: #fff;
+    }
+
+    h1 {
+      margin-top: 50px;
+      color: #fff;
+    }
+
+    label {
+      display: block;
+      font-size: 18px;
+      margin-top: 30px;
+    }
+
+    #inputSentence {
+      padding: 10px;
+      font-size: 16px;
+      width: 300px;
+      border-radius: 4px;
+      border: 1px solid #fff;
+      background-color: transparent;
+      color: #fff;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: transparent;
+      color: #fff;
+      border: 1px solid #fff;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #fff;
+      color: #000;
+    }
+
+    #output {
+      margin-top: 40px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>BESHY ConverterWebsite</h1>
+  <label for="inputSentence">BESHY SENTENCE:</label>
+  <input type="text" id="inputSentence" />
+  <button onclick="beshyConverter()">Enter</button>
+  <div id="output"></div>
+  <script src="script.js"></script>
+</body>
+</html>
